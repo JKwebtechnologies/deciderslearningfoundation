@@ -1,2 +1,0 @@
-# deciderslearningfoundation
-Deciders Learning Foundation
