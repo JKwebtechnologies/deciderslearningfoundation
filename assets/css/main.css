@@ -2235,7 +2235,12 @@ Our Misson Style
     gap: 30px;
   }
 
-  .our-vision .section-heading h2 {
+  .our-vision .section-heading h2,
+  .about-us .section-heading h2,
+  .our-mission .section-heading h2,
+  .team .section-heading h2,
+  .testimonials .section-heading h2,
+  .events .section-heading h2 {
     font-size: 22px;
     font-weight: 600;
     text-transform: capitalize;
@@ -2258,13 +2263,16 @@ Our Misson Style
   .team {
     margin-top: 50px !important;
   }
-   .testimonials .section-heading{
+
+  .testimonials .section-heading {
     margin-top: 0px !important;
-   }
-   .events{
+  }
+
+  .events {
     margin-top: 0px;
-   }
-   footer p {
+  }
+
+  footer p {
     text-align: center;
     line-height: normal;
     color: #fff;
@@ -2274,5 +2282,5 @@ Our Misson Style
     justify-content: center;
     min-height: 150px;
     padding: 40px;
-}
+  }
 }
