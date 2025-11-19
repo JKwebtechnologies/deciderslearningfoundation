@@ -519,7 +519,7 @@ Header Style
 .header-area .main-nav .menu-trigger {
   cursor: pointer;
   position: absolute;
-  top: 33px;
+  top: 22px;
   width: 32px;
   height: 40px;
   text-indent: -9999em;
@@ -539,7 +539,7 @@ Header Style
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #fff;
+  background-color: #1cba9f;
   display: block;
   position: absolute;
   width: 30px;
@@ -553,7 +553,7 @@ Header Style
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #fff;
+  background-color: #1cba9f;
   display: block;
   position: absolute;
   width: 30px;
@@ -600,11 +600,11 @@ Header Style
   -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: #fff;
+  background-color: #1cba9f;
 }
 
 .background-header .main-nav .menu-trigger.active span:before {
-  background-color: #fff;
+  background-color: #1cba9f;
 }
 
 .header-area .main-nav .menu-trigger.active span:after {
@@ -612,11 +612,11 @@ Header Style
   -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: #fff;
+  background-color: #1cba9f;
 }
 
 .background-header .main-nav .menu-trigger.active span:after {
-  background-color: #fff;
+  background-color: #1cba9f;
 }
 
 .header-area.header-sticky .nav li a.active {
@@ -654,20 +654,20 @@ Header Style
     font-weight: 400;
     color: #1e1e1e;
     background-color: #ddfdf770;
-    border-radius: 0px 0px 25px 25px;
+    border-radius: 0px;
   }
 
   .background-header .main-nav .nav li,
   .header-area .main-nav .nav li {
-    border-top: 1px solid #ddd;
+    /* border-top: 1px solid #ddd; */
     background-color: #ddfdf770;
     height: 50px;
-    border-radius: 0px 0px 25px 25px;
+    /* border-radius: 0px 0px 25px 25px; */
   }
 
   .background-header .main-nav .nav li:last-child,
   .header-area .main-nav .nav li:last-child {
-    border-radius: 0px 0px 25px 25px;
+    /* border-radius: 0px 0px 25px 25px; */
   }
 
   .header-area .main-nav .nav {
@@ -697,7 +697,7 @@ Header Style
 
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #1cba9f !important;
+    color: #fff !important;
     opacity: 1;
   }
 
@@ -706,7 +706,7 @@ Header Style
   }
 
   .header-area {
-    background-color: transparent;
+    background-color: #fff;
     padding: 0px 15px;
     height: 80px;
     box-shadow: none;
@@ -719,7 +719,7 @@ Header Style
 
   .header-area .logo {
     margin-left: 0px;
-    margin-top: 30px;
+    margin-top: 10px;
   }
 
   .header-area .menu-trigger {
@@ -742,11 +742,11 @@ Header Style
   }
 
   .header-area .main-nav .nav li:first-child {
-    border-top: 1px solid #eee;
+    /* border-top: 1px solid #eee; */
   }
 
   .header-area.header-sticky .nav {
-    margin-top: 100px !important;
+    margin-top: 80px !important;
   }
 
   .background-header.header-sticky .nav {
@@ -1184,8 +1184,9 @@ ul li a.is_active {
 .events_item:hover .thumb span.price {
   transform: scale(1.2);
 }
+
 .pad_para {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 /* 
@@ -2186,7 +2187,8 @@ Our Misson Style
 .our-mission .section-heading p {
   margin-top: 7px;
 }
-.our-mission img{
+
+.our-mission img {
   border-radius: 25px;
 }
 
@@ -2196,4 +2198,81 @@ Our Misson Style
   color: #4a4a4a;
   list-style: disc;
   margin-left: 22px;
+}
+
+@media screen and (max-width: 576px) {
+  .about-us {
+    padding-top: 20px !important;
+  }
+
+  #aboutus .our-vision::before {
+    width: 98% !important;
+  }
+
+  .our-vision {
+    margin-top: 120px !important;
+  }
+
+  .row-col-reverse {
+    flex-direction: column-reverse !important;
+    gap: 30px;
+  }
+
+  .about-us .section-heading {
+    margin-left: 0px;
+    margin-top: 0px !important;
+  }
+
+  .about-us .section-heading h2 {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 20px 0;
+    line-height: 30px;
+  }
+
+  .our-vision .row-col-reverse-vision {
+    gap: 30px;
+  }
+
+  .our-vision .section-heading h2 {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 20px 0;
+    line-height: 30px;
+  }
+
+  .our-mission {
+    margin-top: 0px !important;
+  }
+
+  .our-mission .section-heading {
+    margin-left: 0px !important;
+  }
+
+  .courses {
+    margin-top: 0 !important;
+  }
+
+  .team {
+    margin-top: 50px !important;
+  }
+   .testimonials .section-heading{
+    margin-top: 0px !important;
+   }
+   .events{
+    margin-top: 0px;
+   }
+   footer p {
+    text-align: center;
+    line-height: normal;
+    color: #fff;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 150px;
+    padding: 40px;
+}
 }
