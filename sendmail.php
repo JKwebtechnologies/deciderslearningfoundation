@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = htmlspecialchars($_POST['message']);
 
     // Send to two email addresses
-    $to = "santhosh5198kumar@gmail.com, ramadurai@deciderslearningfoundation.org, maran@deciderslearningfoundation.org, jamiemartin09@gmail.com";
+    $to = "santhosh5198kumar@gmail.com, ramadurai@deciderslearningfoundation.org, maran@deciderslearningfoundation.org, jamiemartin09@gmail.com, selvakumar@deciderslearningfoundation.org";
 
     $subject = "New Contact Form Message";
 

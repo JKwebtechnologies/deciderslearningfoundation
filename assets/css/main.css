@@ -1384,6 +1384,7 @@ Testimonials Style
   max-width: 100px;
   float: left;
   margin-right: 25px;
+  height: 100px;
 }
 
 .testimonials .item span {
